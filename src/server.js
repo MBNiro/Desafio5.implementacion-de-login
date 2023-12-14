@@ -34,7 +34,7 @@ app.use(
         maxAge: 10000
       },
       store: new mongoStore({
-        mongoUrl: 'mongodb+srv://admin:admin@cluster23.c2zreja.mongodb.net/coderhouse?retryWrites=true&w=majority',
+        mongoUrl: '"mongodb://maria:muD3iMBZz7IPpxu6@cluster23.c2zreja.mongodb.net/ecommerce"',
         ttl: 10,
       }),
     })
